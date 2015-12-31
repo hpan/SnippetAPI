@@ -16,7 +16,7 @@ class UserTableSeeder extends Seeder
 				'id'=> '1',
 				'name'=> 'panhao',
 				'email'=> 'horn.pan@gmail.com',
-				'password'=>hash::make('jiu'),
+				'password'=>Hash::make('jiu'),
         	]);
     }
 }
